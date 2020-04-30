@@ -1,0 +1,78 @@
+.container {
+    margin-top: 100px;
+}
+
+.heading h2 {
+    color: #df0000;
+    font-weight: 700;
+    text-decoration: underline;
+    margin: 20px auto;
+}
+
+input[type="email"], input[type="text"], input[type="password"], input[type="tel"]{  
+    text-align: center; 
+} 
+
+.btn_signin {
+    padding: 4px 50px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 15px;
+}
+.btn_signin:hover {
+    padding: 4px 50px;
+    background-color: #ffc400;
+    color: #000000;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 15px;
+}
+
+form {
+    margin: 50px 80px 30px 80px; 
+}
+
+form p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+}
+
+form p a {
+    font-size: 18px;
+    color: #df0000;
+    font-weight: 700;
+}
+
+.pad_1_5 {
+    padding: 1px 5px;
+}
+
+.data {
+    box-shadow: 0 0 5px 1px lightgrey;
+    border-radius: 10px;
+}
+
+.shift-right {
+    text-align: right;
+}
+
+.shift-left {
+    text-align: left;
+}
+
+@media(min-width: 0px) and (max-width: 749px ){
+    form {
+        margin: 30px 20px 30px 20px;
+    }
+
+    .heading h2 {
+        font-size: 22px;
+    }
+
+    .shift-right, .shift-left {
+        text-align: center;
+    }
+}
