@@ -472,5 +472,28 @@ background: #428bca;
 }
 
 
+#logo-carsoul .owl-nav{
+display:none;
+}
+#logo-carsoul .item{
+box-shadow: 16px 0 15px rgba(0, 0, 0, 0.1);
+background: #F5F9FB;
+padding: 10px;
+padding: 45px 0;
+border: 10px solid #ffffff;
+position: relative;
+z-index: 1;
+text-align: center !important;
+padding: 0px;
+margin-bottom: 10px;
+}
 
+#logo-carsoul .item img{
+vertical-align: middle;
+display: block;
+max-width: 100%;
+}
+.topnav a:hover {
+    border-bottom: 3px solid red;
+}
 
