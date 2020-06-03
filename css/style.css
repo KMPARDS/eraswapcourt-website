@@ -1,0 +1,499 @@
+nav {
+    background-color: #ffc400;
+    box-shadow: 2px 2px 5px #7777;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.navbar-nav .nav-item{
+    margin: 0px 5px;
+}
+
+
+nav .navbar-nav.center_links {
+    margin: 0px auto;
+}
+
+#navbarSupportedContent-555 {
+    margin: 10px 0px;
+}
+
+/* SHIFT */
+nav ul li a.page{
+    position:relative;
+    z-index: 1;
+  }
+  nav ul li a.page:hover {
+    color: #000000;
+  }
+  nav ul li a.page:after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 1px;
+    content: '.';
+    color: transparent;
+    background: #fff;
+    visibility: none;
+    opacity: 0;
+    z-index: -1;
+  }
+  nav ul li a.page:hover:after {
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+  }
+  
+
+
+.container {
+    margin-top: 100px;
+}
+
+.era_courtImage {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.heading h1 {
+    color: #df0000;
+    font-weight: 700;
+    text-decoration: underline;
+    margin: 20px auto;
+}
+
+.about_para p {
+    margin: 25px auto;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.raise_dispBtn {
+    margin: 20px auto;
+}
+
+.btn_raise {
+    padding: 6px 50px;
+    background-color: #ffc400;
+    color: #000000;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.why_era_swap {
+    margin-top: 60px;
+}
+
+.why_era_swap h2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #000000;
+}
+
+.why_era_para {
+    margin: 10px auto 5px auto;
+    font-size: 16px;
+    color: #000000;
+}
+
+.why_era_para p {
+    margin: 0px 60px;
+}
+
+.content_points {
+    background-color: #ffc400;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px -5px;
+    margin-top: 24px;
+}
+
+.content_points h2 {
+    font-weight: 700;
+    color:#000000;
+    margin: 20px 30px 5px 30px;
+}
+
+.content_points p {
+    font-size: 16px;
+    color: #000000;
+    padding: 0px 40px;
+    margin-bottom: 20px;
+}
+
+.blockglobe_new img {
+    margin-left: 50px;
+}
+
+
+.revolution {
+    margin-top: 20px;
+}
+
+.revolution h2 {
+    font-weight: 700;
+    text-decoration: underline;
+    color: #000000;
+}
+
+.section_just {
+    margin: 5px auto;
+}
+
+
+.justice_points {
+    background-color: #ffc400;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px -5px;
+    margin-top: 20px;
+}
+
+.justice_points h2 {
+    font-weight: 700;
+    color:#000000;
+    margin: 5px auto;
+}
+
+.justice_points p {
+    font-weight: 600;
+    color: #000000;
+    margin: 20px 20px;
+}
+
+.btn-join{
+    color: #fff;
+    font-weight: 600;
+    background-color: #000000;
+    border-radius: 5px;
+    padding: 4px 50px;
+    margin-bottom: 20px;
+}
+
+.section_just .pad_60 {
+    padding: 0px 60px;
+}
+
+.features {
+    margin-top: 10px;
+}
+
+.features h2 {
+    color: #000000;
+    font-weight: 700;
+    margin: 20px auto;
+    text-decoration: underline;
+}
+
+.join_us h2 {
+    color: #000000;
+    font-weight: 700;
+    margin: 10px auto;
+}
+
+.features_para {
+    margin: 5px auto 5px auto;
+    font-size: 16px;
+    color: #000000;
+}
+
+.subcribe {
+    box-shadow: 1px 3px 7px -5px;
+    margin: 30px auto 0px auto;
+    border-radius: 8px;
+}
+
+.subcribe p {
+    font-size: 14px;
+    font-weight: 700;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.emailID {
+    border-radius: 20px;
+    box-shadow: 0 4px 10px -5px;
+}
+
+.btn_sucribe {
+    padding: 1px 15px;
+    color: #000000;
+    font-weight: 600;
+    background-color: #ffc400;
+    border-radius: 20px;
+}
+
+.white_logo {
+    margin: 94px auto;
+    height: 150px;
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+}
+
+.social_links {
+    margin: 100px auto 80px auto;
+}
+
+.social_links li a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.social_links li {
+    margin: 8px auto;
+}
+
+.shift-right {
+    text-align: center;
+}
+
+.shift-left {
+    text-align: left;
+}
+
+.navbar-nav .bell:hover {
+    display: block;
+  }
+
+.social_icons .fa {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.footer-copyright {
+    padding-top: 12px;
+}
+
+.fa.fa-facebook {
+background: #3B5998;
+color: white;
+}
+
+.fa-twitter {
+background: #55ACEE;
+color: white;
+}
+
+.fa-linkedin {
+background: #007bb5;
+color: white;
+}
+
+.fa-youtube {
+background: #bb0000;
+color: white;
+}
+
+.fa-instagram {
+background: #eb4924;
+color: white;
+} 
+
+
+
+
+
+
+/* carousel start */
+
+.carousel {
+    margin-bottom: 0;
+    padding: 0 10px 10px 10px;
+}
+/* The controlsy */
+.carousel-control {
+	left: -12px;
+    height: 40px;
+	width: 40px;
+    background: none repeat scroll 0 0 #222222;
+    border: 4px solid #FFFFFF;
+    border-radius: 23px 23px 23px 23px;
+    margin-top: 90px;
+}
+.carousel-control.right {
+	right: -12px;
+}
+/* The indicators */
+.carousel-indicators {
+	right: 50%;
+	top: auto;
+	bottom: -10px;
+	margin-right: -19px;
+}
+/* The colour of the indicators */
+.carousel-indicators li {
+	background: #cecece;
+}
+.carousel-indicators .active {
+background: #428bca;
+}
+
+
+.carousel-inner {
+    position: relative;
+}
+
+
+
+/* carousel end */
+
+
+
+/*========= Media Query ========== */
+
+@media(min-width: 750px) and (max-width: 1024px ){
+
+.wid_320 {
+    width: 320px;
+    margin: 20px auto;
+}
+
+.content_points {
+    margin-top: 40px;
+} 
+
+.content_points h2 {
+    font-weight: 600;
+    color: #000000;
+    margin: 20px 0px 8px 0px;
+    font-size: 22px;
+}
+
+.content_points p {
+    font-size: 14px;
+}
+
+.justice_points p {
+    margin: 15px 18px;
+}
+
+}
+
+
+@media(min-width: 0px) and (max-width: 749px ){
+
+.container {
+    margin-top: 50px;
+}    
+.era_courtImage {
+    width: 300px;
+}
+
+.heading h1 {
+    font-size: 24px;
+}
+
+.about_para p {
+    font-size: 14px;
+    padding: 5px;
+    margin: 10px auto;
+}
+
+.why_era_swap {
+    margin-top: 20px;
+}
+
+.why_era_swap h2 {
+    font-size: 30px;
+}
+
+.btn_raise {
+    padding: 5px 20px;
+}
+
+.why_era_para {
+    margin: 10px auto 5px auto;
+}
+
+.why_era_para p {
+    margin: 0px 10px;
+}
+
+.wid_320 {
+    width: 320px;
+}
+
+.content_points {
+    margin-top: 30px;
+}
+
+.pading_30 {
+    padding: 0px 35px 0px 35px;
+}
+
+.content_points h2 {
+    font-weight: 600;
+    color: #000000;
+    margin: 20px 16px 12px 16px;
+    font-size: 20px;
+}
+
+.blockglobe_new img {
+    margin: 15px 0px;
+}
+
+.revolution h2 {
+    font-size: 20px;
+}
+
+.section_just .pad_60 {
+    padding: 20px 40px;
+}
+
+.features h2 {
+    font-size: 26px;
+    margin: 5px auto;
+}
+
+.social_links {
+    margin: 0px;
+    text-align: left;
+}
+
+.footer-copyright {
+    padding: 16px;
+}
+
+
+}
+
+
+#logo-carsoul .owl-nav{
+display:none;
+}
+#logo-carsoul .item{
+box-shadow: 16px 0 15px rgba(0, 0, 0, 0.1);
+background: #F5F9FB;
+padding: 10px;
+padding: 45px 0;
+border: 10px solid #ffffff;
+position: relative;
+z-index: 1;
+text-align: center !important;
+padding: 0px;
+margin-bottom: 10px;
+}
+
+#logo-carsoul .item img{
+vertical-align: middle;
+display: block;
+max-width: 100%;
+}
+.topnav a:hover {
+    border-bottom: 3px solid red;
+}
+
